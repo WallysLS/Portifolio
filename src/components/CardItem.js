@@ -6,9 +6,14 @@ function CardItem(props) {
     <>
       <li className='cards__item' >
               
-        <Link className='cards__item__link' to={props.path} style={{width:500}} >
+        <Link className='cards__item__link' 
+       
+        style={{width:500}} >
   
-          <video src='/videos/compre.mp4' autoPlay loop muted className='cards__item__pic-wrap' data-category={props.label} />
+          <video src='/videos/compre.mp4' autoPlay loop muted className='cards__item__pic-wrap' data-category={props.label}
+          href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"
+        
+          />
 
          
           <div className='cards__item__info'>

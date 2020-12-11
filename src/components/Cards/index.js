@@ -5,7 +5,7 @@ import CardItem2 from "../CardItem2"
 import CardItem3 from "../CardItem3"
 import CardItem4 from "../CardItem4"
 
-function Cards() {
+function Cards(props) {
   return (
     <div className='cards'>
       <h1>Hi There. Nice to meet you!</h1>
@@ -32,12 +32,15 @@ function Cards() {
             <CardItem
               src='images/img-2.jpg'
               text='Compre da Favela'
-              path='/about'
+              onClick = {props}
+              
+
             />
+            
+
             <CardItem2
               src='images/img-1.jpg'
               text='Mina'
-              path='/about'
               
             />
             </ul>
@@ -47,13 +50,11 @@ function Cards() {
             <CardItem3
               src='images/img-2.jpg'
               text='Amadrinha'
-              path='/about'
             />
 
              <CardItem4
               src='images/img-2.jpg'
               text='myRGBgame'
-              path='/about'
             />
             </ul>
            

@@ -15,8 +15,6 @@ function Footer() {
           
             <Link
               class='social-icon-link Linkedin'
-              to='/'
-              target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
@@ -24,8 +22,6 @@ function Footer() {
 
             <Link
               class='social-icon-link Github'
-              to='/'
-              target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-github' />
